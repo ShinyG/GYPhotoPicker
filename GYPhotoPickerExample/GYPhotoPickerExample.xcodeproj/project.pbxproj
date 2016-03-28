@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CD68F31CA927F30040BBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD68F21CA927F30040BBEE /* main.m */; };
+		28CD68F61CA927F30040BBEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD68F51CA927F30040BBEE /* AppDelegate.m */; };
+		28CD68FC1CA927F30040BBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CD68FA1CA927F30040BBEE /* Main.storyboard */; };
+		28CD68FE1CA927F30040BBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CD68FD1CA927F30040BBEE /* Assets.xcassets */; };
+		28CD69011CA927F30040BBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CD68FF1CA927F30040BBEE /* LaunchScreen.storyboard */; };
+		28CD690C1CA927F30040BBEE /* GYPhotoPickerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD690B1CA927F30040BBEE /* GYPhotoPickerExampleTests.m */; };
+		28CD69171CA927F30040BBEE /* GYPhotoPickerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69161CA927F30040BBEE /* GYPhotoPickerExampleUITests.m */; };
+		28CD69391CA928050040BBEE /* GYAlbumConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69261CA928050040BBEE /* GYAlbumConst.m */; };
+		28CD693A1CA928050040BBEE /* GYAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69281CA928050040BBEE /* GYAlbumManager.m */; };
+		28CD693B1CA928050040BBEE /* GYAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD692A1CA928050040BBEE /* GYAlbumViewController.m */; };
+		28CD693C1CA928050040BBEE /* GYBrowserAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD692C1CA928050040BBEE /* GYBrowserAlbumViewController.m */; };
+		28CD693D1CA928050040BBEE /* GYBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD692E1CA928050040BBEE /* GYBrowserCell.m */; };
+		28CD693E1CA928050040BBEE /* GYMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69301CA928050040BBEE /* GYMaskView.m */; };
+		28CD693F1CA928050040BBEE /* GYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69321CA928050040BBEE /* GYPhotoCell.m */; };
+		28CD69401CA928050040BBEE /* GYRightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69341CA928050040BBEE /* GYRightImageButton.m */; };
+		28CD69411CA928050040BBEE /* GYSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69361CA928050040BBEE /* GYSelectButton.m */; };
+		28CD69421CA928050040BBEE /* GYTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69381CA928050040BBEE /* GYTitleCell.m */; };
+		28CD69441CA9299F0040BBEE /* GYPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28CD69431CA9299E0040BBEE /* GYPhotoPicker.bundle */; };
+		28CD694B1CA92AA70040BBEE /* ExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD694A1CA92AA70040BBEE /* ExampleController.m */; };
+		28CD69501CA92C9A0040BBEE /* SingleSelectDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD694E1CA92C9A0040BBEE /* SingleSelectDemo.m */; };
+		28CD69511CA92C9A0040BBEE /* SingleSelectDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CD694F1CA92C9A0040BBEE /* SingleSelectDemo.xib */; };
+		28CD69551CA92FBA0040BBEE /* MultiSelectDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD69531CA92FBA0040BBEE /* MultiSelectDemo.m */; };
+		28CD69561CA92FBA0040BBEE /* MultiSelectDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CD69541CA92FBA0040BBEE /* MultiSelectDemo.xib */; };
+		28CD695E1CA939330040BBEE /* CustomCameraDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD695C1CA939330040BBEE /* CustomCameraDemo.m */; };
+		28CD695F1CA939330040BBEE /* CustomCameraDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CD695D1CA939330040BBEE /* CustomCameraDemo.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28CD69081CA927F30040BBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CD68E61CA927F30040BBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CD68ED1CA927F30040BBEE;
+			remoteInfo = GYPhotoPickerExample;
+		};
+		28CD69131CA927F30040BBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CD68E61CA927F30040BBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CD68ED1CA927F30040BBEE;
+			remoteInfo = GYPhotoPickerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28CD68EE1CA927F30040BBEE /* GYPhotoPickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYPhotoPickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CD68F21CA927F30040BBEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28CD68F41CA927F30040BBEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28CD68F51CA927F30040BBEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28CD68FB1CA927F30040BBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28CD68FD1CA927F30040BBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28CD69001CA927F30040BBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28CD69021CA927F30040BBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CD69071CA927F30040BBEE /* GYPhotoPickerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYPhotoPickerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CD690B1CA927F30040BBEE /* GYPhotoPickerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYPhotoPickerExampleTests.m; sourceTree = "<group>"; };
+		28CD690D1CA927F30040BBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CD69121CA927F30040BBEE /* GYPhotoPickerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYPhotoPickerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CD69161CA927F30040BBEE /* GYPhotoPickerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYPhotoPickerExampleUITests.m; sourceTree = "<group>"; };
+		28CD69181CA927F30040BBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CD69251CA928050040BBEE /* GYAlbumConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYAlbumConst.h; sourceTree = "<group>"; };
+		28CD69261CA928050040BBEE /* GYAlbumConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYAlbumConst.m; sourceTree = "<group>"; };
+		28CD69271CA928050040BBEE /* GYAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYAlbumManager.h; sourceTree = "<group>"; };
+		28CD69281CA928050040BBEE /* GYAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYAlbumManager.m; sourceTree = "<group>"; };
+		28CD69291CA928050040BBEE /* GYAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYAlbumViewController.h; sourceTree = "<group>"; };
+		28CD692A1CA928050040BBEE /* GYAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYAlbumViewController.m; sourceTree = "<group>"; };
+		28CD692B1CA928050040BBEE /* GYBrowserAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBrowserAlbumViewController.h; sourceTree = "<group>"; };
+		28CD692C1CA928050040BBEE /* GYBrowserAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBrowserAlbumViewController.m; sourceTree = "<group>"; };
+		28CD692D1CA928050040BBEE /* GYBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBrowserCell.h; sourceTree = "<group>"; };
+		28CD692E1CA928050040BBEE /* GYBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBrowserCell.m; sourceTree = "<group>"; };
+		28CD692F1CA928050040BBEE /* GYMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYMaskView.h; sourceTree = "<group>"; };
+		28CD69301CA928050040BBEE /* GYMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYMaskView.m; sourceTree = "<group>"; };
+		28CD69311CA928050040BBEE /* GYPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYPhotoCell.h; sourceTree = "<group>"; };
+		28CD69321CA928050040BBEE /* GYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYPhotoCell.m; sourceTree = "<group>"; };
+		28CD69331CA928050040BBEE /* GYRightImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYRightImageButton.h; sourceTree = "<group>"; };
+		28CD69341CA928050040BBEE /* GYRightImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYRightImageButton.m; sourceTree = "<group>"; };
+		28CD69351CA928050040BBEE /* GYSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYSelectButton.h; sourceTree = "<group>"; };
+		28CD69361CA928050040BBEE /* GYSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYSelectButton.m; sourceTree = "<group>"; };
+		28CD69371CA928050040BBEE /* GYTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYTitleCell.h; sourceTree = "<group>"; };
+		28CD69381CA928050040BBEE /* GYTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYTitleCell.m; sourceTree = "<group>"; };
+		28CD69431CA9299E0040BBEE /* GYPhotoPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GYPhotoPicker.bundle; sourceTree = "<group>"; };
+		28CD69491CA92AA70040BBEE /* ExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleController.h; sourceTree = "<group>"; };
+		28CD694A1CA92AA70040BBEE /* ExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleController.m; sourceTree = "<group>"; };
+		28CD694D1CA92C9A0040BBEE /* SingleSelectDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleSelectDemo.h; sourceTree = "<group>"; };
+		28CD694E1CA92C9A0040BBEE /* SingleSelectDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleSelectDemo.m; sourceTree = "<group>"; };
+		28CD694F1CA92C9A0040BBEE /* SingleSelectDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleSelectDemo.xib; sourceTree = "<group>"; };
+		28CD69521CA92FBA0040BBEE /* MultiSelectDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSelectDemo.h; sourceTree = "<group>"; };
+		28CD69531CA92FBA0040BBEE /* MultiSelectDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSelectDemo.m; sourceTree = "<group>"; };
+		28CD69541CA92FBA0040BBEE /* MultiSelectDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiSelectDemo.xib; sourceTree = "<group>"; };
+		28CD695B1CA939330040BBEE /* CustomCameraDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraDemo.h; sourceTree = "<group>"; };
+		28CD695C1CA939330040BBEE /* CustomCameraDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCameraDemo.m; sourceTree = "<group>"; };
+		28CD695D1CA939330040BBEE /* CustomCameraDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraDemo.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CD68EB1CA927F30040BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CD69041CA927F30040BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CD690F1CA927F30040BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CD68E51CA927F30040BBEE = {
+			isa = PBXGroup;
+			children = (
+				28CD68F01CA927F30040BBEE /* GYPhotoPickerExample */,
+				28CD690A1CA927F30040BBEE /* GYPhotoPickerExampleTests */,
+				28CD69151CA927F30040BBEE /* GYPhotoPickerExampleUITests */,
+				28CD68EF1CA927F30040BBEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28CD68EF1CA927F30040BBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CD68EE1CA927F30040BBEE /* GYPhotoPickerExample.app */,
+				28CD69071CA927F30040BBEE /* GYPhotoPickerExampleTests.xctest */,
+				28CD69121CA927F30040BBEE /* GYPhotoPickerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CD68F01CA927F30040BBEE /* GYPhotoPickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				28CD69241CA928050040BBEE /* GYPhotoPicker */,
+				28CD69451CA92A270040BBEE /* Classes */,
+				28CD68F41CA927F30040BBEE /* AppDelegate.h */,
+				28CD68F51CA927F30040BBEE /* AppDelegate.m */,
+				28CD68FA1CA927F30040BBEE /* Main.storyboard */,
+				28CD68FD1CA927F30040BBEE /* Assets.xcassets */,
+				28CD68FF1CA927F30040BBEE /* LaunchScreen.storyboard */,
+				28CD69021CA927F30040BBEE /* Info.plist */,
+				28CD68F11CA927F30040BBEE /* Supporting Files */,
+			);
+			path = GYPhotoPickerExample;
+			sourceTree = "<group>";
+		};
+		28CD68F11CA927F30040BBEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28CD68F21CA927F30040BBEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28CD690A1CA927F30040BBEE /* GYPhotoPickerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				28CD690B1CA927F30040BBEE /* GYPhotoPickerExampleTests.m */,
+				28CD690D1CA927F30040BBEE /* Info.plist */,
+			);
+			path = GYPhotoPickerExampleTests;
+			sourceTree = "<group>";
+		};
+		28CD69151CA927F30040BBEE /* GYPhotoPickerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28CD69161CA927F30040BBEE /* GYPhotoPickerExampleUITests.m */,
+				28CD69181CA927F30040BBEE /* Info.plist */,
+			);
+			path = GYPhotoPickerExampleUITests;
+			sourceTree = "<group>";
+		};
+		28CD69241CA928050040BBEE /* GYPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				28CD69431CA9299E0040BBEE /* GYPhotoPicker.bundle */,
+				28CD69251CA928050040BBEE /* GYAlbumConst.h */,
+				28CD69261CA928050040BBEE /* GYAlbumConst.m */,
+				28CD69271CA928050040BBEE /* GYAlbumManager.h */,
+				28CD69281CA928050040BBEE /* GYAlbumManager.m */,
+				28CD69291CA928050040BBEE /* GYAlbumViewController.h */,
+				28CD692A1CA928050040BBEE /* GYAlbumViewController.m */,
+				28CD692B1CA928050040BBEE /* GYBrowserAlbumViewController.h */,
+				28CD692C1CA928050040BBEE /* GYBrowserAlbumViewController.m */,
+				28CD692D1CA928050040BBEE /* GYBrowserCell.h */,
+				28CD692E1CA928050040BBEE /* GYBrowserCell.m */,
+				28CD692F1CA928050040BBEE /* GYMaskView.h */,
+				28CD69301CA928050040BBEE /* GYMaskView.m */,
+				28CD69311CA928050040BBEE /* GYPhotoCell.h */,
+				28CD69321CA928050040BBEE /* GYPhotoCell.m */,
+				28CD69331CA928050040BBEE /* GYRightImageButton.h */,
+				28CD69341CA928050040BBEE /* GYRightImageButton.m */,
+				28CD69351CA928050040BBEE /* GYSelectButton.h */,
+				28CD69361CA928050040BBEE /* GYSelectButton.m */,
+				28CD69371CA928050040BBEE /* GYTitleCell.h */,
+				28CD69381CA928050040BBEE /* GYTitleCell.m */,
+			);
+			name = GYPhotoPicker;
+			path = ../../GYPhotoPicker;
+			sourceTree = "<group>";
+		};
+		28CD69451CA92A270040BBEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28CD69461CA92A7D0040BBEE /* CustomCamera */,
+				28CD69471CA92A7D0040BBEE /* MultiSelect */,
+				28CD694C1CA92C8C0040BBEE /* SingleSelect */,
+				28CD69491CA92AA70040BBEE /* ExampleController.h */,
+				28CD694A1CA92AA70040BBEE /* ExampleController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		28CD69461CA92A7D0040BBEE /* CustomCamera */ = {
+			isa = PBXGroup;
+			children = (
+				28CD695B1CA939330040BBEE /* CustomCameraDemo.h */,
+				28CD695C1CA939330040BBEE /* CustomCameraDemo.m */,
+				28CD695D1CA939330040BBEE /* CustomCameraDemo.xib */,
+			);
+			path = CustomCamera;
+			sourceTree = "<group>";
+		};
+		28CD69471CA92A7D0040BBEE /* MultiSelect */ = {
+			isa = PBXGroup;
+			children = (
+				28CD69521CA92FBA0040BBEE /* MultiSelectDemo.h */,
+				28CD69531CA92FBA0040BBEE /* MultiSelectDemo.m */,
+				28CD69541CA92FBA0040BBEE /* MultiSelectDemo.xib */,
+			);
+			path = MultiSelect;
+			sourceTree = "<group>";
+		};
+		28CD694C1CA92C8C0040BBEE /* SingleSelect */ = {
+			isa = PBXGroup;
+			children = (
+				28CD694D1CA92C9A0040BBEE /* SingleSelectDemo.h */,
+				28CD694E1CA92C9A0040BBEE /* SingleSelectDemo.m */,
+				28CD694F1CA92C9A0040BBEE /* SingleSelectDemo.xib */,
+			);
+			path = SingleSelect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CD68ED1CA927F30040BBEE /* GYPhotoPickerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CD691B1CA927F30040BBEE /* Build configuration list for PBXNativeTarget "GYPhotoPickerExample" */;
+			buildPhases = (
+				28CD68EA1CA927F30040BBEE /* Sources */,
+				28CD68EB1CA927F30040BBEE /* Frameworks */,
+				28CD68EC1CA927F30040BBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYPhotoPickerExample;
+			productName = GYPhotoPickerExample;
+			productReference = 28CD68EE1CA927F30040BBEE /* GYPhotoPickerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28CD69061CA927F30040BBEE /* GYPhotoPickerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CD691E1CA927F30040BBEE /* Build configuration list for PBXNativeTarget "GYPhotoPickerExampleTests" */;
+			buildPhases = (
+				28CD69031CA927F30040BBEE /* Sources */,
+				28CD69041CA927F30040BBEE /* Frameworks */,
+				28CD69051CA927F30040BBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CD69091CA927F30040BBEE /* PBXTargetDependency */,
+			);
+			name = GYPhotoPickerExampleTests;
+			productName = GYPhotoPickerExampleTests;
+			productReference = 28CD69071CA927F30040BBEE /* GYPhotoPickerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28CD69111CA927F30040BBEE /* GYPhotoPickerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CD69211CA927F30040BBEE /* Build configuration list for PBXNativeTarget "GYPhotoPickerExampleUITests" */;
+			buildPhases = (
+				28CD690E1CA927F30040BBEE /* Sources */,
+				28CD690F1CA927F30040BBEE /* Frameworks */,
+				28CD69101CA927F30040BBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CD69141CA927F30040BBEE /* PBXTargetDependency */,
+			);
+			name = GYPhotoPickerExampleUITests;
+			productName = GYPhotoPickerExampleUITests;
+			productReference = 28CD69121CA927F30040BBEE /* GYPhotoPickerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CD68E61CA927F30040BBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "高言";
+				TargetAttributes = {
+					28CD68ED1CA927F30040BBEE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					28CD69061CA927F30040BBEE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 28CD68ED1CA927F30040BBEE;
+					};
+					28CD69111CA927F30040BBEE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 28CD68ED1CA927F30040BBEE;
+					};
+				};
+			};
+			buildConfigurationList = 28CD68E91CA927F30040BBEE /* Build configuration list for PBXProject "GYPhotoPickerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28CD68E51CA927F30040BBEE;
+			productRefGroup = 28CD68EF1CA927F30040BBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CD68ED1CA927F30040BBEE /* GYPhotoPickerExample */,
+				28CD69061CA927F30040BBEE /* GYPhotoPickerExampleTests */,
+				28CD69111CA927F30040BBEE /* GYPhotoPickerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CD68EC1CA927F30040BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CD69511CA92C9A0040BBEE /* SingleSelectDemo.xib in Resources */,
+				28CD69441CA9299F0040BBEE /* GYPhotoPicker.bundle in Resources */,
+				28CD695F1CA939330040BBEE /* CustomCameraDemo.xib in Resources */,
+				28CD69561CA92FBA0040BBEE /* MultiSelectDemo.xib in Resources */,
+				28CD69011CA927F30040BBEE /* LaunchScreen.storyboard in Resources */,
+				28CD68FE1CA927F30040BBEE /* Assets.xcassets in Resources */,
+				28CD68FC1CA927F30040BBEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CD69051CA927F30040BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CD69101CA927F30040BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CD68EA1CA927F30040BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CD693F1CA928050040BBEE /* GYPhotoCell.m in Sources */,
+				28CD693A1CA928050040BBEE /* GYAlbumManager.m in Sources */,
+				28CD69551CA92FBA0040BBEE /* MultiSelectDemo.m in Sources */,
+				28CD694B1CA92AA70040BBEE /* ExampleController.m in Sources */,
+				28CD693B1CA928050040BBEE /* GYAlbumViewController.m in Sources */,
+				28CD69391CA928050040BBEE /* GYAlbumConst.m in Sources */,
+				28CD695E1CA939330040BBEE /* CustomCameraDemo.m in Sources */,
+				28CD68F61CA927F30040BBEE /* AppDelegate.m in Sources */,
+				28CD69501CA92C9A0040BBEE /* SingleSelectDemo.m in Sources */,
+				28CD68F31CA927F30040BBEE /* main.m in Sources */,
+				28CD69411CA928050040BBEE /* GYSelectButton.m in Sources */,
+				28CD693D1CA928050040BBEE /* GYBrowserCell.m in Sources */,
+				28CD693E1CA928050040BBEE /* GYMaskView.m in Sources */,
+				28CD693C1CA928050040BBEE /* GYBrowserAlbumViewController.m in Sources */,
+				28CD69421CA928050040BBEE /* GYTitleCell.m in Sources */,
+				28CD69401CA928050040BBEE /* GYRightImageButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CD69031CA927F30040BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CD690C1CA927F30040BBEE /* GYPhotoPickerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CD690E1CA927F30040BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CD69171CA927F30040BBEE /* GYPhotoPickerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28CD69091CA927F30040BBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CD68ED1CA927F30040BBEE /* GYPhotoPickerExample */;
+			targetProxy = 28CD69081CA927F30040BBEE /* PBXContainerItemProxy */;
+		};
+		28CD69141CA927F30040BBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CD68ED1CA927F30040BBEE /* GYPhotoPickerExample */;
+			targetProxy = 28CD69131CA927F30040BBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28CD68FA1CA927F30040BBEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CD68FB1CA927F30040BBEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28CD68FF1CA927F30040BBEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CD69001CA927F30040BBEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28CD69191CA927F30040BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28CD691A1CA927F30040BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28CD691C1CA927F30040BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GYPhotoPickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GY.GYPhotoPickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28CD691D1CA927F30040BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GYPhotoPickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GY.GYPhotoPickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28CD691F1CA927F30040BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GYPhotoPickerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GY.GYPhotoPickerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYPhotoPickerExample.app/GYPhotoPickerExample";
+			};
+			name = Debug;
+		};
+		28CD69201CA927F30040BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GYPhotoPickerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GY.GYPhotoPickerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYPhotoPickerExample.app/GYPhotoPickerExample";
+			};
+			name = Release;
+		};
+		28CD69221CA927F30040BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GYPhotoPickerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GY.GYPhotoPickerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GYPhotoPickerExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		28CD69231CA927F30040BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GYPhotoPickerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GY.GYPhotoPickerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GYPhotoPickerExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CD68E91CA927F30040BBEE /* Build configuration list for PBXProject "GYPhotoPickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CD69191CA927F30040BBEE /* Debug */,
+				28CD691A1CA927F30040BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CD691B1CA927F30040BBEE /* Build configuration list for PBXNativeTarget "GYPhotoPickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CD691C1CA927F30040BBEE /* Debug */,
+				28CD691D1CA927F30040BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28CD691E1CA927F30040BBEE /* Build configuration list for PBXNativeTarget "GYPhotoPickerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CD691F1CA927F30040BBEE /* Debug */,
+				28CD69201CA927F30040BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28CD69211CA927F30040BBEE /* Build configuration list for PBXNativeTarget "GYPhotoPickerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CD69221CA927F30040BBEE /* Debug */,
+				28CD69231CA927F30040BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CD68E61CA927F30040BBEE /* Project object */;
+}
