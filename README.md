@@ -3,7 +3,7 @@
 
 #GYPhotoPicker的使用
 * 方法一:通过cocoapods -> pod 'GYPhotoPicker'
-* 方法二:Download ZIP -> 把GYCalendar文件夹中的所有文件拽入项目中,主头文件为：#import "GYAlbumViewController.h"
+* 方法二:Download ZIP -> 把GYPhotoPicker文件夹中的所有文件拽入项目中,主头文件为：#import "GYAlbumViewController.h"
 
 
 ![example](https://raw.githubusercontent.com/ShinyG/GYPhotoPicker/master/gif/GYPhotoPicker.gif)
